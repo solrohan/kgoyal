@@ -1,0 +1,32 @@
+{
+  "name": "CA KRISHAN GOYAL",
+  "short_name": "CA.KG",
+  "description": "Chartered Accountant in Jaipur offering expert tax planning, GST, audit services & financial advisory",
+  "icons": [
+    {
+      "src": "/favicon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "theme_color": "#1a365d",
+  "background_color": "#f8fafc",
+  "display": "standalone",
+  "start_url": "/",
+  "orientation": "portrait",
+  "scope": "/",
+  "lang": "en"
+}

@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cookie Policy - CA KRISHAN GOYAL</title>
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+  <!-- Critical CSS for performance -->
+  <style>
+    html, body {width: auto!important; overflow-x: hidden!important} 
+    body { 
+      font-family: 'Lora', serif;
+      scroll-behavior: smooth;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    h1, h2, h3, h4 { 
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      contain: layout style;
+    }
+    /* Performance optimized color classes */
+    .accent { color: #1a365d; }
+    .bg-primary { 
+      background-color: #f8fafc;
+      contain: paint;
+    }
+    .highlight { color: #c4a052; }
+    .bg-accent { 
+      background-color: #1a365d;
+      contain: paint;
+    }
+    .icon-accent {color: #c4a052;}
+    .text-accent { color: #1a365d; }
+    /* Added content-visibility for better performance */
+    .cv-auto {
+      content-visibility: auto;
+      contain-intrinsic-size: 1px 5000px;
+    }
+    .border-accent { border-color: #1a365d; }
+    .bg-highlight { background-color: #c4a052; }
+    .border-highlight { border-color: #c4a052; }
+    .text-highlight { color: #c4a052; }
+    .nav-link {
+      position: relative;
+    }
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      bottom: -2px;
+      left: 0;
+      background-color: #c4a052;
+      transition: width 0.3s ease;
+    }
+    .nav-link:hover::after {
+      width: 100%;
+    }
+  </style>
+  
+  <!-- Tailwind Config -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#f8fafc',
+            accent: '#1a365d',
+            highlight: '#c4a052'
+          }
+        }
+      }
+    };
+  </script>
+  <script>
+    // Initialize AOS when DOM is ready
+    document.addEventListener('DOMContentLoaded', function() {
+      AOS.init({
+        duration: 600,
+        easing: 'ease-in-out',
+        once: true,
+        disable: window.innerWidth < 768 // Disable on mobile for better performance
+      });
+    });
+  </script>
+</head>
+<body class="bg-primary">
+  <!-- Navbar -->
+  <nav class="fixed top-0 inset-x-0 bg-white shadow-sm z-40 transition-all duration-300">
+    <div class="max-w-screen-xl mx-auto px-4 sm:px-6 py-3">
+      <div class="flex items-center justify-between">
+        <a href="/" class="text-xl sm:text-2xl font-bold accent flex items-center">
+          <img 
+            src="./favicon.svg" 
+            alt="CA Logo" 
+            class="h-10 w-10 sm:h-12 sm:w-12 mr-3" 
+            width="48" 
+            height="48" 
+            loading="eager"
+            fetchpriority="high">
+          <span class="hidden sm:inline contain-layout">CA KRISHAN GOYAL</span>
+          <span class="sm:hidden contain-layout">CA KRISHAN GOYAL</span>
+        </a>
+        <div class="flex items-center space-x-6">
+          <a href="/" class="nav-link hover:text-accent">Home</a>
+          <a href="/privacy-policy" class="nav-link hover:text-accent">Privacy Policy</a>
+          <a href="/terms" class="nav-link hover:text-accent">Terms</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content with optimized loading -->
+  <main class="pt-24 pb-12">
+    <div class="container mx-auto px-4 py-8">
+      <div class="max-w-4xl mx-auto">
+        <div class="bg-white rounded-lg shadow-lg p-8 cv-auto" data-aos="fade-up" data-aos-duration="400">
+          <!-- Header Section -->
+          <div class="text-center mb-12">
+            <img 
+              src="./favicon.svg" 
+              alt="CA KRISHAN GOYAL Logo" 
+              class="w-24 h-24 mx-auto mb-6" 
+              loading="lazy" 
+              width="96" 
+              height="96"
+              decoding="async"
+              fetchpriority="low">
+            <h1 class="text-4xl font-bold text-accent mb-4 contain-layout">Cookie Policy</h1>
+            <p class="text-gray-600">Last updated: May 2025</p>
+            <p class="text-gray-600 mt-4">Learn how we use cookies to enhance your browsing experience.</p>
+          </div>
+
+          <!-- Content Cards -->
+          <div class="grid gap-8">
+            <!-- Introduction -->
+            <div class="bg-white rounded-2xl p-8 shadow-lg" data-aos="fade-up" data-aos-duration="400" data-aos-offset="0">
+              <div class="flex items-center mb-6">
+                <div class="bg-accent p-3 rounded-full mr-4">
+                  <i class="fas fa-cookie-bite text-white"></i>
+                </div>
+                <h2 class="text-2xl font-semibold accent">1. Introduction</h2>
+              </div>
+              <p class="text-gray-700">
+                This Cookie Policy explains how CA Krishan Goyal uses cookies and similar technologies to recognize you when you visit our website. It explains what these technologies are and why we use them, as well as your rights to control our use of them.
+              </p>
+            </div>
+
+            <!-- Types of Cookies -->
+            <div class="bg-white rounded-2xl p-8 shadow-lg" data-aos="fade-up" data-aos-delay="100">
+              <div class="flex items-center mb-6">
+                <div class="bg-accent p-3 rounded-full mr-4">
+                  <i class="fas fa-list text-white"></i>
+                </div>
+                <h2 class="text-2xl font-semibold accent">2. Types of Cookies We Use</h2>
+              </div>
+              <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-primary rounded-xl p-6">
+                  <h3 class="text-xl font-semibold accent mb-4 flex items-center">
+                    <i class="fas fa-cog text-highlight mr-2"></i>
+                    Essential Cookies
+                  </h3>
+                  <ul class="space-y-2 text-gray-700">
+                    <li class="flex items-start">
+                      <i class="fas fa-check text-highlight mt-1 mr-2"></i>
+                      <span>Website functionality</span>
+                    </li>
+                    <li class="flex items-start">
+                      <i class="fas fa-check text-highlight mt-1 mr-2"></i>
+                      <span>Security features</span>
+                    </li>
+                    <li class="flex items-start">
+                      <i class="fas fa-check text-highlight mt-1 mr-2"></i>
+                      <span>User authentication</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="bg-primary rounded-xl p-6">
+                  <h3 class="text-xl font-semibold accent mb-4 flex items-center">
+                    <i class="fas fa-chart-bar text-highlight mr-2"></i>
+                    Analytics Cookies
+                  </h3>
+                  <ul class="space-y-2 text-gray-700">
+                    <li class="flex items-start">
+                      <i class="fas fa-check text-highlight mt-1 mr-2"></i>
+                      <span>Usage statistics</span>
+                    </li>
+                    <li class="flex items-start">
+                      <i class="fas fa-check text-highlight mt-1 mr-2"></i>
+                      <span>Performance monitoring</span>
+                    </li>
+                    <li class="flex items-start">
+                      <i class="fas fa-check text-highlight mt-1 mr-2"></i>
+                      <span>User behavior analysis</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Cookie Management -->
+            <div class="bg-white rounded-2xl p-8 shadow-lg" data-aos="fade-up" data-aos-delay="200">
+              <div class="flex items-center mb-6">
+                <div class="bg-accent p-3 rounded-full mr-4">
+                  <i class="fas fa-sliders text-white"></i>
+                </div>
+                <h2 class="text-2xl font-semibold accent">3. Managing Your Cookie Preferences</h2>
+              </div>
+              <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-primary rounded-xl p-6">
+                  <div class="bg-accent/10 p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
+                    <i class="fas fa-window-maximize text-accent"></i>
+                  </div>
+                  <h3 class="font-semibold text-accent mb-2">Browser Settings</h3>
+                  <p class="text-gray-700">Control cookies through your browser preferences</p>
+                </div>
+                <div class="bg-primary rounded-xl p-6">
+                  <div class="bg-accent/10 p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
+                    <i class="fas fa-toggle-on text-accent"></i>
+                  </div>
+                  <h3 class="font-semibold text-accent mb-2">Cookie Consent</h3>
+                  <p class="text-gray-700">Manage your cookie preferences on our website</p>
+                </div>
+                <div class="bg-primary rounded-xl p-6">
+                  <div class="bg-accent/10 p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
+                    <i class="fas fa-shield-alt text-accent"></i>
+                  </div>
+                  <h3 class="font-semibold text-accent mb-2">Privacy Controls</h3>
+                  <p class="text-gray-700">Additional privacy settings and options</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Third-Party Cookies -->
+            <div class="bg-white rounded-2xl p-8 shadow-lg" data-aos="fade-up" data-aos-delay="300">
+              <div class="flex items-center mb-6">
+                <div class="bg-accent p-3 rounded-full mr-4">
+                  <i class="fas fa-share-nodes text-white"></i>
+                </div>
+                <h2 class="text-2xl font-semibold accent">4. Third-Party Cookies</h2>
+              </div>
+              <p class="text-gray-700 mb-6">
+                Some of our pages may contain content from third-party services that may set their own cookies. We do not have control over these cookies but provide information about them for transparency.
+              </p>
+              <div class="bg-primary rounded-xl p-6">
+                <ul class="space-y-2 text-gray-700">
+                  <li class="flex items-start">
+                    <i class="fas fa-check text-highlight mt-1 mr-2"></i>
+                    <span>Analytics providers (e.g., Google Analytics)</span>
+                  </li>
+                  <li class="flex items-start">
+                    <i class="fas fa-check text-highlight mt-1 mr-2"></i>
+                    <span>Social media plugins</span>
+                  </li>
+                  <li class="flex items-start">
+                    <i class="fas fa-check text-highlight mt-1 mr-2"></i>
+                    <span>Embedded content providers</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Updates to Policy -->
+            <div class="bg-white rounded-2xl p-8 shadow-lg" data-aos="fade-up" data-aos-delay="400">
+              <div class="flex items-center mb-6">
+                <div class="bg-accent p-3 rounded-full mr-4">
+                  <i class="fas fa-clock-rotate-left text-white"></i>
+                </div>
+                <h2 class="text-2xl font-semibold accent">5. Updates to This Policy</h2>
+              </div>
+              <p class="text-gray-700">
+                We may update this Cookie Policy from time to time to reflect changes in our practices or for operational, legal, or regulatory reasons. We encourage you to periodically review this page for the latest information on our cookie practices.
+              </p>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="bg-white rounded-2xl p-8 shadow-lg" data-aos="fade-up" data-aos-delay="500">
+              <div class="flex items-center mb-6">
+                <div class="bg-accent p-3 rounded-full mr-4">
+                  <i class="fas fa-envelope text-white"></i>
+                </div>
+                <h2 class="text-2xl font-semibold accent">6. Contact Us</h2>
+              </div>
+              <p class="text-gray-700">
+                If you have any questions about our Cookie Policy, please contact us at:
+              </p>
+              <div class="mt-4">
+                <p class="text-gray-700">
+                  <strong>Email:</strong> <a href="mailto:goyal.cakrishan@gmail.com" class="text-highlight hover:underline">goyal.cakrishan@gmail.com</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-accent text-white py-12">
+    <div class="max-w-screen-xl mx-auto px-4 sm:px-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+        <!-- Brand Section -->
+        <div class="space-y-4 sm:col-span-2 lg:col-span-1">
+          <div class="flex items-center">
+            <img src="./favicon.svg" alt="CA Logo" class="h-12 w-12">
+            <span class="text-xl font-bold ml-3">CA KRISHAN GOYAL</span>
+          </div>
+          <p class="text-white/60">Your trusted partner in financial excellence and professional growth.</p>
+          <div class="flex space-x-4">
+            <a href="https://www.instagram.com/cakrishangoyal" target="_blank" class="bg-white/10 hover:bg-white/20 p-3 rounded-full transition">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="mailto:goyal.cakrishan@gmail.com" class="bg-white/10 hover:bg-white/20 p-3 rounded-full transition">
+              <i class="fas fa-envelope"></i>
+            </a>
+            <a href="tel:+919549999987" class="bg-white/10 hover:bg-white/20 p-3 rounded-full transition">
+              <i class="fas fa-phone-alt"></i>
+            </a>
+            <a href="https://wa.me/919549999987" target="_blank" class="bg-white/10 hover:bg-white/20 p-3 rounded-full transition">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Services -->
+        <div>
+          <h4 class="text-lg font-semibold mb-6 flex items-center">
+            <i class="fas fa-briefcase mr-2 text-highlight"></i>
+            Our Services
+          </h4>
+          <ul class="space-y-3">
+            <li>
+              <a href="/#services" class="text-white/80 hover:text-white transition flex items-center">
+                <i class="fas fa-chevron-right text-highlight mr-2 text-sm"></i>
+                Tax Planning & Compliance
+              </a>
+            </li>
+            <li>
+              <a href="/#services" class="text-white/80 hover:text-white transition flex items-center">
+                <i class="fas fa-chevron-right text-highlight mr-2 text-sm"></i>
+                Audit & Assurance
+              </a>
+            </li>
+            <li>
+              <a href="/#services" class="text-white/80 hover:text-white transition flex items-center">
+                <i class="fas fa-chevron-right text-highlight mr-2 text-sm"></i>
+                GST Services
+              </a>
+            </li>
+            <li>
+              <a href="/#services" class="text-white/80 hover:text-white transition flex items-center">
+                <i class="fas fa-chevron-right text-highlight mr-2 text-sm"></i>
+                Financial Advisory
+              </a>
+            </li>
+            <li>
+              <a href="/#services" class="text-white/80 hover:text-white transition flex items-center">
+                <i class="fas fa-chevron-right text-highlight mr-2 text-sm"></i>
+                Business Setup
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Career Counselling -->
+        <div>
+          <h4 class="text-lg font-semibold mb-6 flex items-center">
+            <i class="fas fa-graduation-cap mr-2 text-highlight"></i>
+            Career Guidance
+          </h4>
+          <ul class="space-y-3">
+            <li>
+              <a href="/#career-counselling" class="text-white/80 hover:text-white transition flex items-center">
+                <i class="fas fa-chevron-right text-highlight mr-2 text-sm"></i>
+                CA Path Guidance
+              </a>
+            </li>
+            <li>
+              <a href="/#career-counselling" class="text-white/80 hover:text-white transition flex items-center">
+                <i class="fas fa-chevron-right text-highlight mr-2 text-sm"></i>
+                Exam Strategies
+              </a>
+            </li>
+            <li>
+              <a href="/#career-counselling" class="text-white/80 hover:text-white transition flex items-center">
+                <i class="fas fa-chevron-right text-highlight mr-2 text-sm"></i>
+                Skill Development
+              </a>
+            </li>
+            <li>
+              <a href="/#career-counselling" class="text-white/80 hover:text-white transition flex items-center">
+                <i class="fas fa-chevron-right text-highlight mr-2 text-sm"></i>
+                Professional Mentoring
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div>
+          <h4 class="text-lg font-semibold mb-6 flex items-center">
+            <i class="fas fa-address-card mr-2 text-highlight"></i>
+            Contact Info
+          </h4>
+          <ul class="space-y-4">
+            <li class="flex items-start">
+              <i class="fas fa-map-marker-alt text-highlight mt-1 mr-3"></i>
+              <span class="text-white/80">266/SH-B/40, First Floor, Pratap Nagar, Sec-26, Rana Sanga Road, Jaipur-302033</span>
+            </li>
+            <li class="flex items-center">
+              <i class="fas fa-envelope text-highlight mr-3"></i>
+              <a href="mailto:goyal.cakrishan@gmail.com" class="text-white/80 hover:text-white transition">goyal.cakrishan@gmail.com</a>
+            </li>
+            <li class="flex items-center">
+              <i class="fas fa-clock text-highlight mr-3"></i>
+              <span class="text-white/80">Mon-Fri: 10:00 AM - 6:00 PM</span>
+            </li>
+            <li class="flex items-center">
+              <i class="fab fa-whatsapp text-highlight mr-3"></i>
+              <a href="https://wa.me/919549999987" target="_blank" class="text-white/80 hover:text-white transition">Chat on WhatsApp</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="border-t border-white/10">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 py-6">
+        <div class="flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
+          <p class="text-white/60 text-sm">&copy; 2024 CA Krishan Goyal. All rights reserved.</p>
+          <div class="flex space-x-6">
+            <a href="privacy-policy.html" class="text-white/60 hover:text-white text-sm transition hover:underline">Privacy Policy</a>
+            <a href="terms.html" class="text-white/60 hover:text-white text-sm transition hover:underline">Terms of Service</a>
+            <a href="cookies.html" class="text-white/60 hover:text-white text-sm transition hover:underline">Cookie Policy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" class="fixed bottom-8 right-8 w-12 h-12 bg-accent text-white rounded-full shadow-lg flex items-center justify-center opacity-0 invisible transition-all duration-300 z-50">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script>
+    // Back to Top Button
+    const backToTopButton = document.getElementById('backToTop');
+    
+    window.addEventListener('scroll', () => {
+      if (window.pageYOffset > 300) {
+        backToTopButton.classList.remove('opacity-0', 'invisible');
+        backToTopButton.classList.add('opacity-100', 'visible');
+      } else {
+        backToTopButton.classList.remove('opacity-100', 'visible');
+        backToTopButton.classList.add('opacity-0', 'invisible');
+      }
+    });
+    
+    backToTopButton.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+  </script>
+</body>
+</html> 

@@ -1,0 +1,13 @@
+/* TEAM */
+Owner & Chartered Accountant: CA Krishan Goyal
+Location: Jaipur, Rajasthan, India
+Contact: goyal.cakrishan@gmail.com
+
+/* SITE */
+Last update: 2024/03/19
+Language: English
+Doctype: HTML5
+Standards: HTML5, CSS3, JavaScript
+Components: TailwindCSS, Font Awesome
+Software: Visual Studio Code, Git
+Location: 266/SH-B/40, First Floor, Pratap Nagar, Sec-26, Rana Sanga Road, Jaipur-302033 
